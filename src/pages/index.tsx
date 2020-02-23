@@ -1,22 +1,8 @@
 import React from 'react';
 import { Link } from 'gatsby';
 
-import Layout from '../components/Layout';
-import Image from './image';
-
-const IndexPage = () => (
-  <Layout>
-    <h1>Hi there!</h1>
-    <p>
-      <strong>Thanks for using awesome-gatsby-starter!</strong> Remember to{' '}
-      <a href="https://github.com/RobertoMSousa/gatsby-typescript-storybook-starter">drop a ⭐ on the project</a> if you
-      find it useful.
-    </p>
-    <div style={{ maxWidth: '300px', marginBottom: '1.45rem' }}>
-      <Image />
-    </div>
-    <Link to="/page-2/">Go to page 2</Link>
-  </Layout>
-);
+const IndexPage = () => {
+  return <h1>Example Page</h1>;
+};
 
 export default IndexPage;

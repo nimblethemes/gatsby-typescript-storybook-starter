@@ -35,24 +35,13 @@
   "dependencies": {
     "@mdx-js/mdx": "^1.0.20",
     "@mdx-js/react": "^1.0.20",
-    "babel-plugin-styled-components": "^1.10.6",
+    "@types/theme-ui": "^0.3.0",
     "gatsby": "^2.15.15",
-    "gatsby-image": "^2.2.19",
-    "gatsby-mdx": "^0.6.3",
-    "gatsby-plugin-manifest": "^2.2.16",
-    "gatsby-plugin-offline": "^3.0.6",
-    "gatsby-plugin-react-helmet": "^3.1.7",
-    "gatsby-plugin-sharp": "^2.2.22",
-    "gatsby-plugin-styled-components": "^3.0.7",
+    "gatsby-plugin-theme-ui": "^0.3.0",
     "gatsby-plugin-typescript": "^2.1.7",
-    "gatsby-source-filesystem": "^2.1.22",
-    "gatsby-transformer-sharp": "^2.2.14",
-    "polished": "^3.4.0",
-    "prop-types": "^15.7.2",
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
-    "react-helmet": "^5.2.1",
-    "styled-components": "^4.2.1"
+    "theme-ui": "^0.3.1"
   },
   "devDependencies": {
     "@babel/core": "^7.6.4",
@@ -62,10 +51,8 @@
     "@storybook/addon-options": "5.0.11",
     "@storybook/addon-viewport": "5.0.11",
     "@storybook/react": "^5.2.5",
-    "@types/react-helmet": "^5.0.13",
     "@types/storybook__addon-info": "^4.1.2",
     "@types/storybook__react": "^4.0.2",
-    "@types/styled-components": "^4.1.19",
     "@typescript-eslint/eslint-plugin": "^2.2.0",
     "@typescript-eslint/parser": "^2.2.0",
     "babel-eslint": "^10.0.1",
@@ -82,7 +69,6 @@
     "eslint-plugin-prettier": "^3.1.0",
     "eslint-plugin-react": "^7.14.3",
     "prettier": "^1.18.2",
-    "react-markdown": "^4.0.8",
     "typescript": "^3.6.3"
   }
 }
